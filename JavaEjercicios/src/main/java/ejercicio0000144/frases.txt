@@ -1,0 +1,1 @@
+Java 12 es la versión más reciente de la plataforma.

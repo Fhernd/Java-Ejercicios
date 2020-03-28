@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<programas>
+    <programa id="1001">
+        <nombre>Visual Studio Code</nombre>
+        <version>1.43.0</version>
+        <desarrollador>Microsoft</desarrollador>
+    </programa>
+    <programa id="1002">
+        <nombre>Notepad++</nombre>
+        <version>7.5.9</version>
+        <desarrollador>Notepad++ Team</desarrollador>
+    </programa>
+</programas>
