@@ -7,8 +7,8 @@
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.14</maven.compiler.source>
+        <maven.compiler.target>1.14</maven.compiler.target>
     </properties>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
@@ -64,6 +64,51 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>2.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-media</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-base</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-controls</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-fxml</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-graphics</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-swing</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-web</artifactId>
+            <version>14.0.2.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.javafx</groupId>
+            <artifactId>javaFX-swt</artifactId>
+            <version>14.0.2.1</version>
         </dependency>
     </dependencies>
     <build>
