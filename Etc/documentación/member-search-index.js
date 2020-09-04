@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"ejercicio0000353","c":"DocumentarFuncion","l":"DocumentarFuncion()","url":"%3Cinit%3E()"},{"p":"ejercicio0000353","c":"DocumentarFuncion","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"ejercicio0000353","c":"DocumentarFuncion","l":"sumar(int, int)","url":"sumar(int,int)"}]

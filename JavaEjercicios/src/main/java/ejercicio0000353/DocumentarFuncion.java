@@ -13,7 +13,7 @@ public class DocumentarFuncion {
      * @param args Datos de entrada desde la consola.
      */
     public static void main(String[] args) {
-        
+        sumar(0, 0);
     }
     
     /**
