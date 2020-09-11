@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-11T15:58:12.110638300Z</date>
+  <millis>1599839892110</millis>
+  <nanos>638300</nanos>
+  <sequence>0</sequence>
+  <logger>ejercicio367</logger>
+  <level>SEVERE</level>
+  <class>ejercicio0000367.Logging</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Se ha producido un error grave.</message>
+</record>
+<record>
+  <date>2020-09-11T15:58:12.147139300Z</date>
+  <millis>1599839892147</millis>
+  <nanos>139300</nanos>
+  <sequence>1</sequence>
+  <logger>ejercicio367</logger>
+  <level>WARNING</level>
+  <class>ejercicio0000367.Logging</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Se ha producido una advertencia.</message>
+</record>
+<record>
+  <date>2020-09-11T15:58:12.175137100Z</date>
+  <millis>1599839892175</millis>
+  <nanos>137100</nanos>
+  <sequence>2</sequence>
+  <logger>ejercicio367</logger>
+  <level>INFO</level>
+  <class>ejercicio0000367.Logging</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>El proceso ha finalizado.</message>
+</record>
+</log>
