@@ -18,7 +18,8 @@ public class ClonacionObjeto {
             
             Estudiante cloneEdward = (Estudiante) edward.clone();
             System.out.println(cloneEdward);
-        } catch (Exception e) {
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
         }
     }
 }
