@@ -27,7 +27,7 @@ public class ReemplazoClasesAnidadas extends javax.swing.JFrame {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            JOptionPane.showMessageDialog(this, "¡Hola!", "Saludo (Clase Anidada)", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "¡Hola!", "Saludo (Clase Anidada)", JOptionPane.INFORMATION_MESSAGE);
         }
         
     }
