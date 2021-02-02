@@ -26,6 +26,7 @@ public class Concatenacion {
         fullName += "Indira "; // 2. "Irlesa Indira "
         fullName += "Ocampo "; // 3. "Irlesa Indira Ocampo "
         fullName += "Romero";  // 4. "Irlesa Indira Ocampo Romero"
+        
         System.out.println(fullName);
     }
 }
