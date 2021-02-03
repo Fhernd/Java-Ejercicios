@@ -11,9 +11,15 @@ public class ProductoBinarios {
         
         int binario1 = 10;  // 2
         int binario2 = 10000;   // 16
+        
+        int resultado = multiplicarBinarios(binario1, binario2);
+        
+        // 2 * 16 = 32
+        // 100000
+        System.out.println(resultado);
     }
     
-    public static void multiplicarBinarios(int a, int b) {
+    public static int multiplicarBinarios(int a, int b) {
         int producto = 0;
         int digito;
         int factor = 1;
@@ -22,10 +28,17 @@ public class ProductoBinarios {
             digito = (int) (b % 10);
             
             if (digito == 1) {
-                a = b * factor;
+                a = a * factor;
                 producto = calculoProducto((int) a, (int) producto);
+            } else {
+                a *= factor;
             }
+            
+            b /= 10;
+            factor = 10;
         }
+        
+        return producto;
     }
 
     private static int calculoProducto(int a, int b) {
