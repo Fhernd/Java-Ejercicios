@@ -16,6 +16,7 @@ public class ProductoBinarios {
         
         // 2 * 16 = 32
         // 100000
+        // 1 * 2 ^ 5 + 0 * 2 ^ 4 + 0 * 2 ^ 3 + 0 * 2 ^ 2 + 0 * 2 ^ 1 + 0 * 2 ^ 0
         System.out.println(resultado);
     }
     
