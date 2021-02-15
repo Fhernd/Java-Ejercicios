@@ -12,7 +12,7 @@ public class ConversionOctalDecimal {
         
         long octal = 12;
         
-        System.out.println(convertirOctalDecimal(octal));   // 8
+        System.out.println(convertirOctalDecimal(octal));   // 10
     }
     
     public static long convertirOctalDecimal(long octal) {
