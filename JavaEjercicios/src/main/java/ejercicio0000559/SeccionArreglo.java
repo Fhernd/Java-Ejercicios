@@ -18,7 +18,7 @@ public class SeccionArreglo {
         
         System.out.println();
         
-        int numero = 11;
+        int numero = 31;
         
         int indice = Arrays.stream(numeros).boxed().collect(Collectors.toList()).indexOf(numero);
         
