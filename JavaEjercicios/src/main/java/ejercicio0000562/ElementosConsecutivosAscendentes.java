@@ -25,7 +25,7 @@ public class ElementosConsecutivosAscendentes {
         
         numeros = new int[]{2, 31, 4, 5, 11, 10, 17, 7, 23, 13, 25};
         
-        System.out.println(hayElementosEnterosConsecutivosAdyacentes(numeros)); // true
+        System.out.println(hayElementosEnterosConsecutivosAdyacentes(numeros)); // false
     }
     
     public static boolean hayElementosEnterosConsecutivosAdyacentes(int[] numeros) {
