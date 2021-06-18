@@ -23,6 +23,18 @@ public class SumarSinOperadorAritmetico {
             y = acarreo << 1;
         }
         
-        System.out.println(x);  // 5
+        // a = 10 & 11
+        // a = 10
+        // x = 10 ^ 11
+        // x = 1
+        // y = 100
+        
+        // a = 1 & 100
+        // a = 0
+        // x = 1 ^ 100
+        // x = 101
+        // y = 0
+        
+        System.out.println(x);  // 5 = 101
     }
 }
