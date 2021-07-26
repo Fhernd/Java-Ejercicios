@@ -32,7 +32,7 @@ public class MenorSumaSubarreglo {
         
         int[] resultado = obtenerSubarregloSumaMenor(numeros, n);
         
-        System.out.println(Arrays.toString(resultado)); // [52, 5, 7]
+        System.out.println(Arrays.toString(resultado)); // [2, 5, 7]
     }
     
     public static int[] obtenerSubarregloSumaMenor(int[] numeros, int n) {
