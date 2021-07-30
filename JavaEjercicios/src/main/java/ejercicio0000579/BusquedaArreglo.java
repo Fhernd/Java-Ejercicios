@@ -21,7 +21,7 @@ public class BusquedaArreglo {
         
         System.out.println();
         
-        System.out.println(busquedaBinaria(primos, 31));    // ___
+        System.out.println(busquedaBinaria(primos, 31));    // 7
     }
     
     public static int busquedaBinaria(int[] numeros, int numero) {
