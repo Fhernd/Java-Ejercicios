@@ -5,8 +5,12 @@ package ejercicio0000581;
  *
  * @author John Ortiz Ordoñez.
  */
-public class ArbolBinario {
-
+public class ArbolBinario<T> {
+    Nodo<T> root;
+    
+    public ArbolBinario() {
+        root = null;
+    }
 }
 
 class Nodo<T> {
