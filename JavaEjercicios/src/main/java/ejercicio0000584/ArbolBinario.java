@@ -1,9 +1,10 @@
-package ejercicio0000582;
+package ejercicio0000584;
 
 /**
- * Ejercicio 582: Definir el método para insertar un nuevo elemento en un árbol binario
+ * Ejercicio 584: Agregar datos numéricos a un árbol binario.
  *
  * @author John Ortiz Ordoñez.
+ * @param <T> Tipo paramétrico.
  */
 public class ArbolBinario<T> {
     Nodo<T> root;
@@ -46,6 +47,17 @@ public class ArbolBinario<T> {
         } else {
             auxiliar.derecha = new Nodo<>(dato);
         }
+    }
+    
+    public static void main(String[] args) {
+        ArbolBinario<Integer> arbolEnteros = new ArbolBinario<>();
+        arbolEnteros.insertar(7);
+        arbolEnteros.insertar(13);
+        arbolEnteros.insertar(11);
+        arbolEnteros.insertar(3);
+        arbolEnteros.insertar(5);
+        arbolEnteros.insertar(2);
+        arbolEnteros.insertar(17);
     }
 }
 
