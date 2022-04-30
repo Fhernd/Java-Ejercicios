@@ -5,7 +5,7 @@ package ejercicio0000635;
  *
  * @author: John Ortiz Ordoñez
  */
-public class ConteoPares {
+public class ConteoImpares {
     public static void main(String[] args) {
         int[] numeros = {13, 12, 8, 5, 3, 10};
 
